@@ -1,24 +1,32 @@
+# 🏡 NeighborFit 
 
-# NeighborFit (Without MongoDB)
+NeighborFit is a simple full-stack web application that helps users find the best neighborhood based on their lifestyle preferences.  
+This version uses local JSON or in-memory data.
 
-NeighborFit is a full-stack web app that recommends the best neighborhood for you based on lifestyle preferences.
+---
 
-## Tech Stack
-- React (frontend)
-- Node.js + Express (backend)
+## 📦 Features
 
-## How to Run
+- User selects lifestyle preferences (e.g., nature, nightlife, schools, public transport)
+- System recommends the best matching neighborhood
+- Simple Express backend with a React frontend
+- Clean, responsive UI with basic CSS
 
-### Backend:
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (Create React App)
+- **Backend**: Node.js + Express.js
+- **Styling**: Plain CSS
+- **Communication**: Axios for HTTP requests
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
 ```bash
-cd server
-npm install
-npm start
-```
-
-### Frontend:
-```bash
-cd client
-npm install
-npm start
-```
+git clone https://github.com/YOUR_USERNAME/neighborfit-without-mongodb.git
+cd neighborfit-without-mongodb
